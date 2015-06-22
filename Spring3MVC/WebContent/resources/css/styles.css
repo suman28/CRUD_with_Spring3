@@ -1,0 +1,58 @@
+body{
+background:#ececec;
+
+}
+#login{
+	background-image:url('<%=request.getContextPath()%>/resources/images/14 - 20.jpg');
+}
+ /* md-content {
+  background-color: transparent !important; } */
+ md-content md-tabs {
+    border: 1px solid #e1e1e1; }
+     md-content md-tabs md-tab-content {
+      background: #f6f6f6; }
+    
+   md-content h1:first-child {
+    margin-top: 0; }
+ md-input-container {
+  padding-bottom: 0; }
+
+ md-tabs {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+ md-tab[disabled] {
+  opacity: 0.5; }
+ 
+  
+  .demo {
+  position:relative;  
+  margin:0;
+  padding:0;
+   background-color: #fff;  
+ /*  margin-top:40px; */
+ /*  margin-left:0px; */
+}
+
+.demo a {
+  text-decoration: none !important;
+   color:rgba(0,0,0,0.54); 
+ /*  height:100%;
+  width:100%; */
+}
+
+/* .demo a.visited {
+  color:white;
+} */
+.sidemnenu{
+	font-size:32px;
+} 
+#contactUs{
+ -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.white{
+	color:white;
+}
